@@ -2075,16 +2075,16 @@ hr {
 
 .button.button-primary,
 .button.button-primary:focus {
-	color: #fff;
-	background-color: #354879;
-	border-color: #354879;
+	color: #333;
+	background-color: #FFCF7D;
+	border-color: #FFCF7D;
 }
 
 .button.button-primary:hover,
 .button.button-primary:active {
 	color: #fff;
-	background-color: #28334f;
-	border-color: #28334f;
+	background-color: #FFCF7D;
+	border-color: #FFCF7D;
 }
 
 html .button.button-primary-lighten,
@@ -8088,6 +8088,7 @@ html [class*='section-'].section-bottom-0 {
 
 .section-halfscreen {
 	position: relative;
+	padding-top: 10px;
 }
 
 .section-halfscreen-inner {
@@ -8103,7 +8104,9 @@ html [class*='section-'].section-bottom-0 {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
+	width: 192;
 }
+
 
 .section-halfscreen-image::before {
 	content: '';
@@ -8114,7 +8117,10 @@ html [class*='section-'].section-bottom-0 {
 	left: 0;
 	z-index: 1;
 	pointer-events: none;
-	background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.4));
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url(images/header-bg-pedro.jpg);
 }
 
 .section-halfscreen-content {
@@ -8464,7 +8470,12 @@ html [class*='section-'].section-bottom-0 {
 * Light Backgrounds
 */
 .bg-gray-100 {
-	background-color: #f5f6fa;
+	background-color: #FFCF7D;
+}
+
+.bg-gray-200 {
+
+	background-image: url(images/teste.png);
 }
 
 /**
@@ -8499,12 +8510,13 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .bg-primary-darken {
-	background-color: #28334f;
+	background-color: #FFCF7D;
 }
 
-.bg-primary-darker {
-	background-color: #29293a;
+.bg-primary-darken2 {
+	background-color: #000;
 }
+
 
 /**
 * Background Image
@@ -9221,7 +9233,7 @@ html:not(.lt-ie10) .not-animated {
 	height: 48px;
 	border-radius: 6px;
 	color: #fff;
-	background: #354879;
+	background: #000;
 	overflow: hidden;
 	text-align: center;
 	text-decoration: none;
@@ -9264,7 +9276,7 @@ html:not(.lt-ie10) .not-animated {
 
 .ui-to-top:hover {
 	color: #fff;
-	background: #3d538b;
+	background: #000;
 	text-decoration: none;
 }
 
@@ -9402,7 +9414,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle span {
 	width: 24px;
 	height: 2px;
-	background-color: black;
+	background-color: white;
 	backface-visibility: hidden;
 	border-radius: 5;
 }
@@ -10485,9 +10497,9 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-panel {
-	color: black;
+	color: #fff;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
-	background: #fff;
+	background: #000;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
