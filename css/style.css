@@ -2118,27 +2118,27 @@ html .button.button-primary-lighten:active {
 .button-dark-outline,
 .button-dark-outline:focus {
 	color: #151515;
-	background-color: transparent;
+	background-color: #FFCF7D;
 	border-color: #151515;
 }
 
 .button-dark-outline:hover,
 .button-dark-outline:active {
 	color: #fff;
-	background-color: #354879;
-	border-color: #354879;
+	background-color: #FFCF7D;
+	border-color: #FFCF7D;
 }
 
 .button-white-outline,
 .button-white-outline:focus {
 	color: #fff;
-	background-color: transparent;
+	background-color: #000;
 	border-color: #fff;
 }
 
 .button-white-outline:hover,
 .button-white-outline:active {
-	color: #354879;
+	color: #000;
 	background-color: #fff;
 	border-color: #fff;
 }
@@ -8117,10 +8117,7 @@ html [class*='section-'].section-bottom-0 {
 	left: 0;
 	z-index: 1;
 	pointer-events: none;
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-image: url(images/header-bg-pedro.jpg);
+
 }
 
 .section-halfscreen-content {
