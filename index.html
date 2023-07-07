@@ -12,6 +12,31 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
+  <!-- Inclua o CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Inclua a biblioteca Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <style>
+    .owl-carousel .owl-nav [class*=owl-] {
+      background-color: transparent;
+      color: #000;
+      font-size: 36px;
+      line-height: 1;
+      padding: 0;
+    }
+
+    .owl-carousel .owl-nav [class*=owl-]:hover {
+      background-color: transparent;
+    }
+
+    .owl-carousel .owl-nav [class*=owl-]:before {
+      display: none;
+    }
+  </style>
 
 </head>
 
@@ -74,15 +99,17 @@
               <div class="section-halfscreen-content">
                 <div class="wow-outer heading-3">
                   <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                    <span class="font-weight-bold" style="color: white;">Pedro Soldon</span><br>
+                    <span class="font-weight-bold" style="color: white;">Pedro Söldon</span><br>
                     <span class="font-weight-bold sumbol" style="font-size: 45px; color: #FFCF7D;">Corretor
                       Imobiliário</span>
                 </div>
                 <div class="wow-outer p">
                   <p class="custom-article wow fadeInDown" data-wow-delay=".2s" style="color: white;">Descubra o seu lar
                     perfeito com a ajuda
-                    de um especialista em imóveis.</p>
-                </div><a class="button button-primary button-winona wow fadeIn" href="#">Entre em
+                    de um especialista em imóveis. Trabalho em Fortaleza, Eusebio e Porto das Dunas, com as principais
+                    construtoras em Fortaleza.</p>
+                </div><a class="button button-primary button-winona wow fadeIn" href="https://wa.me/5585988214921">Entre
+                  em
                   contato</a>
               </div>
             </div>
@@ -106,12 +133,13 @@
               </div>
               <div class="profile-modern-item">
                 <div class="group group-xs group-middle">
-                  <a class="icon icon-sm icon-creative mdi mdi-facebook" href="#"></a>
-                  <a class="icon icon-sm icon-creative mdi mdi-twitter" href="#"></a>
-                  <a class="icon icon-sm icon-creative mdi mdi-instagram" href="#"></a>
-                  <a class="icon icon-sm icon-creative mdi mdi-google" href="#"></a>
-                  <a class="icon icon-sm icon-creative mdi mdi-linkedin" href="#"></a>
-                  <a class="icon icon-sm icon-creative mdi mdi-whatsapp whatsapp-icon" href="#"></a>
+                  <a class="icon icon-sm icon-creative mdi mdi-facebook"
+                    href="https://www.facebook.com/profile.php?id=100075720767163"></a>
+                  <a class="icon icon-sm icon-creative mdi mdi-instagram"
+                    href="https://www.instagram.com/pedro.soldon/ "></a>
+                  <a class="icon icon-sm icon-creative mdi mdi-google" href="mailto:trocar"></a>
+                  <a class="icon icon-sm icon-creative mdi mdi-whatsapp whatsapp-icon"
+                    href="https://wa.me/5585988214921"></a>
                 </div>
               </div>
             </div>
@@ -213,51 +241,68 @@
     <!-- Advantages and Achievements-->
     <section class="section section-lg text-center">
       <div class="container">
-        <h3 class="wow-outer"><span class="wow slideInUp">Meus Resultados</span></h3>
-        <p class="wow-outer"><span class="text-width-1 wow slideInDown">Desde que comecei em XXX, venho acumulando
-            resultados e ótimas avaliações!</span></p>
-        <div class="row row-50">
-          <div class="col-6 col-md-3 wow-outer">
-            <!-- Counter Minimal-->
-            <article class="counter-minimal wow slideInDown">
-              <div class="counter-minimal-icon linearicons-star"></div>
-              <div class="counter-minimal-main">
-                <div class="counter">12</div>
-              </div>
-              <h5 class="counter-minimal-title">Prêmios</h5>
-            </article>
+        <h3 class="wow-outer"><span class="wow slideInUp">Avaliações</span></h3>
+
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="testimonial-content">
+              <h5>João Silva</h5>
+              <p>Vendeu minha casa em Fortaleza. Ótimo atendimento e profissionalismo. Recomendo!</p>
+            </div>
           </div>
-          <div class="col-6 col-md-3 wow-outer">
-            <!-- Counter Minimal-->
-            <article class="counter-minimal wow slideInDown">
-              <div class="counter-minimal-icon linearicons-folder"></div>
-              <div class="counter-minimal-main">
-                <div class="counter">99</div><span class="value">%</span>
-              </div>
-              <h5 class="counter-minimal-title">Clientes satisfeitos</h5>
-            </article>
+          <div class="item">
+            <div class="testimonial-content">
+              <h5>Maria Santos</h5>
+              <p>Excelente corretor! Com sua ajuda, consegui comprar minha casa no Eusébio. Muito obrigado!</p>
+            </div>
           </div>
-          <div class="col-6 col-md-3 wow-outer">
-            <!-- Counter Minimal-->
-            <article class="counter-minimal wow slideInDown">
-              <div class="counter-minimal-icon linearicons-flag"></div>
-              <div class="counter-minimal-main">
-                <span class="value">+</span>
-                <div class="counter">7</div>
-              </div>
-              <h5 class="counter-minimal-title">Anos de experiência</h5>
-            </article>
+          <div class="item">
+            <div class="testimonial-content">
+              <h5>Carlos Oliveira</h5>
+              <p>Recomendo o Pedro para quem procura um corretor em Porto das Dunas. Eficiente e prestativo!</p>
+            </div>
           </div>
-          <div class="col-6 col-md-3 wow-outer">
-            <!-- Counter Minimal-->
-            <article class="counter-minimal wow slideInDown">
-              <div class="counter-minimal-icon linearicons-lamp"></div>
-              <div class="counter-minimal-main">
-                <span class="value">+</span>
-                <div class="counter">99</div>
-              </div>
-              <h5 class="counter-minimal-title">Imóveis vendidos</h5>
-            </article>
+          <div class="item">
+            <div class="testimonial-content">
+              <h5>Ana Rodrigues</h5>
+              <p>Contratei o Pedro para vender minha casa em Fortaleza e fiquei muito satisfeito com o resultado!</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-content">
+              <h5>Pedro Almeida</h5>
+              <p>Excelente atendimento! O Pedro me ajudou a encontrar a casa dos meus sonhos no Eusébio.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-content">
+              <h5>Sandra Costa</h5>
+              <p>Super recomendo o Pedro! Com ele, consegui vender minha propriedade em Porto das Dunas rapidamente.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-content">
+              <h5>Luis Santos</h5>
+              <p>O Pedro foi fundamental na compra da minha casa em Fortaleza. Um corretor muito competente.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-content">
+              <h5>Fernanda Lima</h5>
+              <p>Agradeço ao Pedro pela paciência e dedicação na venda do meu imóvel no Eusébio. Ótimo profissional!</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-content">
+              <h5>Marcos Oliveira</h5>
+              <p>Com o auxílio do Pedro, encontrei uma casa incrível em Porto das Dunas. Estou muito feliz!</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-content">
+              <h5>Patricia Silva</h5>
+              <p>Recomendo os serviços do Pedro para quem busca um corretor confiável em Fortaleza.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -270,9 +315,10 @@
             <div class="box-cta-thin">
               <h4 class="title wow-outer"><span class="wow slideInRight" style="color: black;">Ajudando a realizar o seu
                   sonho de uma
-                  casa!</span></h4>
+                  casa própria!</span></h4>
+
               <div class="wow-outer button-outer"><a class="button button-white-outline button-winona wow slideInLeft"
-                  href="contacts.html">Entre em contato</a></div>
+                  href="https://wa.me/5585988214921">Entre em contato</a></div>
             </div>
           </div>
         </div>
@@ -282,7 +328,9 @@
     <!-- Recent News-->
     <section class="section section-lg text-center">
       <div class="container">
-        <h3 class="wow-outer"><span class="wow slideInDown">Instagram</span></h3>
+        <h3 class="wow-outer"><span class="wow slideInDown">
+            <div class="icon icon-lg mdi mdi-instagram text-dark"></div>
+          </span></h3>
         <div class="row row-30">
           <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
             <!-- Post Tiny-->
@@ -293,9 +341,59 @@
 
         </div>
         <div class="wow-outer button-outer offset-top-2"><a
-            class="button button-dark-outline button-winona wow slideInUp" href="#">Ver Perfil</a></div>
+            class="button button-dark-outline button-winona wow slideInUp"
+            href="https://www.instagram.com/pedro.soldon/ ">Ver Perfil</a></div>
       </div>
     </section>
+
+    <section class="section section-lg text-center">
+      <div class="container">
+        <h3 class="wow-outer"><span class="wow slideInDown">Notícias Recentes</span></h3>
+        <div class="row row-30">
+          <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+            <!-- Post Tiny-->
+            <article class="post-tiny wow fadeSlideInDown"><a class="post-tiny-media" href="noticia1.html"><img
+                  src="images/noticia1.jpg" alt="" width="270" height="184" /></a>
+              <h5 class="post-tiny-title"><a href="noticia1.html">Novo estudo revela: investir em imóveis é uma opção
+                  segura</a>
+              </h5>
+              <time class="post-tiny-time" datetime="2017">Recente</time>
+            </article>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+            <!-- Post Tiny-->
+            <article class="post-tiny wow fadeSlideInDown" data-wow-delay=".05s"><a class="post-tiny-media"
+                href="noticia2.html"><img src="images/noticia2.jpg" alt="" width="270" height="184" /></a>
+              <h5 class="post-tiny-title"><a href="noticia2.html">Corretores de imóveis inovam com tour virtual para
+                  clientes</a>
+              </h5>
+              <time class="post-tiny-time" datetime="2017">Recente</time>
+            </article>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+            <!-- Post Tiny-->
+            <article class="post-tiny wow fadeSlideInDown" data-wow-delay=".1s"><a class="post-tiny-media"
+                href="noticia3.html"><img src="images/noticia3.jpg" alt="" width="270" height="184" /></a>
+              <h5 class="post-tiny-title"><a href="noticia3.html">Comprar imóveis na praia: a tendência do momento</a>
+              </h5>
+              <time class="post-tiny-time" datetime="2017">Recente</time>
+            </article>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+            <!-- Post Tiny-->
+            <article class="post-tiny wow fadeSlideInDown" data-wow-delay=".15s"><a class="post-tiny-media"
+                href="noticia4.html"><img src="images/noticia4.jpg" alt="" width="270" height="184" /></a>
+              <h5 class="post-tiny-title"><a href="noticia4.html">Corretor de imóveis: a peça-chave na compra do seu
+                  sonho</a></h5>
+              <time class="post-tiny-time" datetime="2017">Recente</time>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
     <!-- A Few Words About Us-->
     <section class="section bg-gray-200" style="background-image: url(images/bg-2.png);">
       <div class="range justify-content-xl-between">
@@ -359,7 +457,8 @@
         </div>
         <div class="cell-lg-6 height-fill">
           <div class="figure-card">
-            <div class="figure-card-sizer"></div><img src="images/bg-pedro.jpg" alt="" width="960" height="762" />
+            <div class="figure-card-sizer"></div>
+            <img src="images/bg-pedro.jpg" alt="" width="960" height="762" class="d-none d-md-block">
           </div>
         </div>
       </div>
@@ -372,20 +471,20 @@
             <div class="layout-bordered-item-inner wow slideInUp">
               <div class="icon icon-lg mdi mdi-whatsapp text-dark"></div>
               <ul class="list-0">
-                <li><a class="link-default" href="tel:#">(85) 9.8821-4921</a></li>
+                <li><a class="link-default" href="https://wa.me/5585988214921">(85) 9.8821-4921</a></li>
               </ul>
             </div>
           </div>
           <div class="layout-bordered-item wow-outer">
             <div class="layout-bordered-item-inner wow slideInUp">
               <div class="icon icon-lg mdi mdi-email text-dark"></div><a class="link-default"
-                href="mailto:#">pedrosondol@pedrosoldon.com</a>
+                href="mailto:trocar">TROCAR</a>
             </div>
           </div>
           <div class="layout-bordered-item wow-outer">
             <div class="layout-bordered-item-inner wow slideInUp">
-              <div class="icon icon-lg mdi mdi-map-marker text-dark"></div><a class="link-default" href="#">Rua X
-                Bairro X</a>
+              <div class="icon icon-lg mdi mdi-instagram text-dark"></div><a class="link-default"
+                href="https://www.instagram.com/pedro.soldon/ ">@pedro.soldon</a>
             </div>
           </div>
         </div>
@@ -408,6 +507,28 @@
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <!-- Inclua o jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Inclua a biblioteca do Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Inclua a biblioteca Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+          items: 1,
+          loop: true,
+          margin: 10,
+          nav: true,
+          navText: ['<span class="owl-nav-prev">&#8249;</span>', '<span class="owl-nav-next">&#8250;</span>'],
+          dots: false,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause: true
+        });
+      });
+    </script>
 </body>
 
 </html>
