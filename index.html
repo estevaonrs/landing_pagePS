@@ -8,14 +8,11 @@
     content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <!-- Stylesheets-->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
-  <!-- Inclua o CSS do Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-  <!-- Inclua a biblioteca Owl Carousel -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -53,32 +50,36 @@
           data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
           <div class="rd-navbar-main-outer">
             <div class="rd-navbar-main">
-              <!-- RD Navbar Panel-->
               <div class="rd-navbar-panel">
-                <!-- RD Navbar Toggle-->
+
+
+                <!-- BEM AQUI ABAIXO FICA A SUA LOGO, VOCÊ PODE TROCAR ELA RENOMEANDO O ARQUIVO IMAGES/LOGO_PEDRO.PNG PARA IMAGES/LOGO_NOVA_PEDRO.PNG ONDE IMAGES É A PASTA ONDE DEVERÁ SER SALVA
+                A IMAGEM E DEPOIS DA "/" É O NOME QUE VOCE SALVOU A IMAGEM, JUNTAMENTE COM A EXTESÃO DELA, SE É .PNG OU .JPG TEM QUE IR MUDANDO TAMBÉM-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle="#rd-navbar-nav-wrap-1"><span></span></button>
-                <!-- RD Navbar Brand--><a class="rd-navbar-brand" href="index.html"><img src="images/logo_pedro.png"
-                    alt="" style="width: 100%;" /></a>
+                <a class="rd-navbar-brand" href="index.html"><img src="images/logo_pedro.png" alt=""
+                    style="width: 100%;" /></a>
+                <!-- BEM AQUI ACIMA FICA A SUA LOGO, VOCÊ PODE TROCAR ELA RENOMEANDO O ARQUIVO IMAGES/LOGO_PEDRO.PNG PARA IMAGES/LOGO_NOVA_PEDRO.PNG ONDE IMAGES É A PASTA ONDE DEVERÁ SER SALVA
+                A IMAGEM E DEPOIS DA "/" É O NOME QUE VOCE SALVOU A IMAGEM, JUNTAMENTE COM A EXTESÃO DELA, SE É .PNG OU .JPG TEM QUE IR MUDANDO TAMBÉM-->
+
+
+
               </div>
               <div class="rd-navbar-main-element">
                 <div class="rd-navbar-nav-wrap" id="rd-navbar-nav-wrap-1">
-                  <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
                     <li class="rd-nav-item"><a class="rd-nav-link" href="index.html" style="color: #FFCF7D;">Início</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="our-founder.html"
-                        style="color: #FFCF7D;">Sobre</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#sobre" style="color: #FFCF7D;">Sobre</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="typography.html"
-                        style="color: #FFCF7D;">Resultados</a>
-                    </li>
-                    <li class="rd-nav-item "><a class="rd-nav-link" href="contacts.html"
-                        style="color: #FFCF7D;">Serviços</a>
-                    <li class="rd-nav-item "><a class="rd-nav-link" href="contacts.html"
+
+                    <li class="rd-nav-item "><a class="rd-nav-link" href="#avaliacoes"
+                        style="color: #FFCF7D;">Avaliações</a></li>
+                    <li class="rd-nav-item "><a class="rd-nav-link" href="#redes" style="color: #FFCF7D;">Redes
+                        Sociais</a></li>
+                    <li class="rd-nav-item "><a class="rd-nav-link" href="#noticias"
                         style="color: #FFCF7D;">Notícias</a>
                     </li>
-                    <li class="rd-nav-item "><a class="rd-nav-link" href="contacts.html"
-                        style="color: #FFCF7D;">Contato</a>
+                    <li class="rd-nav-item "><a class="rd-nav-link" href="#contato" style="color: #FFCF7D;">Contato</a>
                     </li>
                   </ul>
                 </div>
@@ -88,12 +89,22 @@
         </nav>
       </div>
     </header>
-    <!-- FScreen-->
+
+
+    <!-- BEM AQUI ABAIXO FICA O PRIMEIRO PLANO DE FUNDO DO SEU SITE, VOCÊ PODE TROCAR ELA RENOMEANDO O ARQUIVO IMAGES/TESTE.PNG PARA 
+      IMAGES/PLANO_DE_FUNDO.PNG SE ASSIM VOCÊ TIVER SALVO O NOME DA IMAGEM NOVA, ONDE IMAGES É A PASTA ONDE DEVERÁ SER SALVA A IMAGEM E DEPOIS DA "/" 
+      É O NOME QUE VOCE SALVOU A IMAGEM, JUNTAMENTE COM A EXTESÃO DELA, SE É .PNG OU .JPG TEM QUE IR MUDANDO TAMBÉM-->
     <section class="section section-halfscreen bg-image" style="background-image: url(images/teste.png);">
+      <!-- BEM AQUI ACIMA FICA O PRIMEIRO PLANO DE FUNDO DO SEU SITE, VOCÊ PODE TROCAR ELA RENOMEANDO O ARQUIVO IMAGES/TESTE.PNG PARA 
+      IMAGES/PLANO_DE_FUNDO.PNG SE ASSIM VOCÊ TIVER SALVO O NOME DA IMAGEM NOVA, ONDE IMAGES É A PASTA ONDE DEVERÁ SER SALVA A IMAGEM E DEPOIS DA "/" 
+      É O NOME QUE VOCE SALVOU A IMAGEM, JUNTAMENTE COM A EXTESÃO DELA, SE É .PNG OU .JPG TEM QUE IR MUDANDO TAMBÉM-->
+
+
+
       <div class="section-halfscreen-inner">
         <div class="section-halfscreen-image wow fadeIn">
         </div>
-        <div class="container">
+        <div id="sobre" class="container">
           <div class="row">
             <div class="col-md-6 col-lg-5">
               <div class="section-halfscreen-content">
@@ -119,10 +130,16 @@
     </section>
     <section class="section section-md">
       <div class="container">
-        <!-- Profile Modern-->
         <article class="profile-modern">
+          <!-- BEM AQUI ABAIXO FICA O PRIMEIRO PLANO DE FUNDO DO SEU SITE, VOCÊ PODE TROCAR ELA RENOMEANDO O ARQUIVO IMAGES/TESTE.PNG PARA 
+          IMAGES/PLANO_DE_FUNDO.PNG SE ASSIM VOCÊ TIVER SALVO O NOME DA IMAGEM NOVA, ONDE IMAGES É A PASTA ONDE DEVERÁ SER SALVA A IMAGEM E DEPOIS DA "/" 
+          É O NOME QUE VOCE SALVOU A IMAGEM, JUNTAMENTE COM A EXTESÃO DELA, SE É .PNG OU .JPG TEM QUE IR MUDANDO TAMBÉM-->
           <div class="profile-modern-figure"><img class="profile-modern-image" src="images/IMG_3670.jpg" alt=""
               width="336" height="336" /><br>
+            <!-- BEM AQUI ACIMA FICA A SUA PRIMEIRA FOTO, VOCÊ PODE TROCAR ELA RENOMEANDO O ARQUIVO IMAGES/IMG_3670.JPG PARA 
+          IMAGES/MINHA_FOTO.PNG SE ASSIM VOCÊ TIVER SALVO O NOME DA IMAGEM NOVA, ONDE IMAGES É A PASTA ONDE DEVERÁ SER SALVA A IMAGEM E DEPOIS DA "/" 
+          É O NOME QUE VOCE SALVOU A IMAGEM, JUNTAMENTE COM A EXTESÃO DELA, SE É .PNG OU .JPG TEM QUE IR MUDANDO TAMBÉM-->
+
 
           </div>
           <div class="profile-modern-main">
@@ -161,7 +178,6 @@
                 </p>
               </div>
               <div class="col-lg-6">
-                <!-- Linear progress bar-->
                 <article class="progress-linear">
                   <div class="progress-header">
                     <p>Profissional</p><span class="progress-value">100</span>
@@ -170,7 +186,6 @@
                     <div class="progress-bar-linear"></div>
                   </div>
                 </article>
-                <!-- Linear progress bar-->
                 <article class="progress-linear">
                   <div class="progress-header">
                     <p>Experiente</p><span class="progress-value">100</span>
@@ -179,7 +194,6 @@
                     <div class="progress-bar-linear"></div>
                   </div>
                 </article>
-                <!-- Linear progress bar-->
                 <article class="progress-linear">
                   <div class="progress-header">
                     <p>Confiável</p><span class="progress-value">100</span>
@@ -195,12 +209,10 @@
       </div>
     </section>
     <div class="tabs-horizontal"></div>
-    <!-- Small Features-->
     <section class="section section-lg bg-gray-100">
       <div class="container">
         <div class="row row-30">
           <div class="col-sm-6 col-lg-4 wow-outer">
-            <!-- Box Minimal-->
             <article class="box-minimal">
               <div class="box-minimal-icon linearicons-pie-chart wow fadeIn" style="color: black;"></div>
               <div class="box-minimal-main wow-outer">
@@ -212,7 +224,6 @@
             </article>
           </div>
           <div class="col-sm-6 col-lg-4 wow-outer">
-            <!-- Box Minimal-->
             <article class="box-minimal">
               <div class="box-minimal-icon linearicons-briefcase wow fadeIn" data-wow-delay=".1s" style="color: black;">
               </div>
@@ -224,7 +235,6 @@
             </article>
           </div>
           <div class="col-sm-6 col-lg-4 wow-outer">
-            <!-- Box Minimal-->
             <article class="box-minimal">
               <div class="box-minimal-icon linearicons-credit-card wow fadeIn" data-wow-delay=".2s"
                 style="color: black;"></div>
@@ -238,22 +248,39 @@
         </div>
       </div>
     </section>
-    <!-- Advantages and Achievements-->
-    <section class="section section-lg text-center">
+    <section id="avaliacoes" class="section section-lg text-center">
       <div class="container">
         <h3 class="wow-outer"><span class="wow slideInUp">Avaliações</span></h3>
 
         <div class="owl-carousel owl-theme">
           <div class="item">
             <div class="testimonial-content">
-              <h5>João Silva</h5>
-              <p>Vendeu minha casa em Fortaleza. Ótimo atendimento e profissionalismo. Recomendo!</p>
+              <h5>Natanael Dantas</h5>
+              <p>A experiência q tive com a compra do meu Imóvel com o corretor Pedro Soldon, foi fantástica!
+                Um profissional atencioso, prestativo, q possui o zelo de responder de forma precisa e detalhada as
+                variadas perguntas q tive ao decorrer do processo de compra do meu AP.
+                Se vc quiser ter uma experiência segura e tranquila na compra de um imóvel, super recomendo o corretor
+                de imóveis Pedro Soldon q este concerteza irá corresponder as suas necessidades.</p>
             </div>
           </div>
           <div class="item">
             <div class="testimonial-content">
-              <h5>Maria Santos</h5>
-              <p>Excelente corretor! Com sua ajuda, consegui comprar minha casa no Eusébio. Muito obrigado!</p>
+              <h5>Ronaldo</h5>
+              <p>Eu Ronaldo, morador da Cidade de Fortaleza(CE), assim como várias pessoas, sempre tive o sonho
+                de arquirir um imóvel, no meu caso residencial, para morar juntamente com minha família, aos quais
+                compartilho o meu cotidiano e dedido minha atenção, mas estou aqui nesse momento, compartilhando
+                a minha felicidade na conquista desse sonho, pois graças á participação do Profissional Corretor
+                de Imóveis, o Sr. Pedro Soldon, pude ter uma boa apresentação de como funcioona tudo, mostrando-me
+                o passo-à-passo com detalhes do funcionamento das várias fases que existem na hora de ter um imóvel,
+                além de sua paciência e disponibilidade de tirar às dúvidas. Desta forma, tive confiança de que não
+                teria
+                problemas em comprar o imóvel, mesmo que na planta, pois o atendimento do Sr.Pedro Soldon foi
+                determinante, me fazendo escolher o empreendimento oriantado pelo mesmo, deixando de lado outras
+                pesquisas
+                que já havia iniciado na busca da realização de um lar próprio. Parabéns pelo profissionalismo e
+                respeito,
+                fiquei satisfeito pelo trabalho presado com zelo e foco na participação de algo tão importante na vida
+                de minha família. Agradecido! Indico-lhe.</p>
             </div>
           </div>
           <div class="item">
@@ -307,7 +334,6 @@
         </div>
       </div>
     </section>
-    <!-- CTA Thin-->
     <section class="section section-xs bg-primary-darken text-center">
       <div class="container">
         <div class="row justify-content-center">
@@ -325,19 +351,38 @@
       </div>
     </section>
 
-    <!-- Recent News-->
-    <section class="section section-lg text-center">
+    <section id="redes" class="section section-lg text-center">
       <div class="container">
         <h3 class="wow-outer"><span class="wow slideInDown">
             <div class="icon icon-lg mdi mdi-instagram text-dark"></div>
           </span></h3>
         <div class="row row-30">
+
+          <!-- BEM AQUI ABAIXO FICA UMA SEÇÃO ONDE CADA SEÇÃO DESSA, SIGNIFICA UMA NOVA IMAGEM, QUE PARA O SITE É UMA NOVA PUBLICAÇÃO DO INSTAGRAM QUE VOCÊ QUER ADICIONAR
+             VOCE SIMPLESMENTE VAI COPIAR TODO O CÓDIGO QUE ESTÁ ENTRE UM COMENTÁRIO E O OUTRO E COLAR, PRECISANDO TROCAR APENAS A IMAGEM DA MESMA FORMA QUE TROCAMOS AS OUTROAS
+             VOCÊ PODE TROCAR ELA RENOMEANDO O ARQUIVO IMAGES/BG-OF.PNG.PNG PARA 
+            IMAGES/FOTO_DO_INSTA.PNG SE ASSIM VOCÊ TIVER SALVO O NOME DA IMAGEM NOVA, ONDE IMAGES É A PASTA ONDE DEVERÁ SER SALVA A IMAGEM E DEPOIS DA "/" 
+            É O NOME QUE VOCE SALVOU A IMAGEM, JUNTAMENTE COM A EXTESÃO DELA, SE É .PNG OU .JPG TEM QUE IR MUDANDO TAMBÉM -->
+
           <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
-            <!-- Post Tiny-->
             <article class="post-tiny wow fadeSlideInDown"><a class="post-tiny-media" href="#"><img
                   src="images/bg-of.png" alt="" width="270" height="184" /></a>
             </article>
           </div>
+
+          <!-- EXEMPLO:
+
+            <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+            <article class="post-tiny wow fadeSlideInDown"><a class="post-tiny-media" href="#"><img
+                  src="images/FOTO_DO_INSTA" alt="" width="270" height="184" /></a>
+            </article>
+          </div>
+          
+
+          COM ISSO, ADICIONAMOS MAIS UMA PUBLICAÇÃO DO INSTA, VOCÊ FARÁ A MESMA COISA COM AS NOTICIAS.
+          
+          -->
+
 
         </div>
         <div class="wow-outer button-outer offset-top-2"><a
@@ -346,12 +391,13 @@
       </div>
     </section>
 
-    <section class="section section-lg text-center">
+    <section id="noticias" class="section section-lg text-center">
       <div class="container">
         <h3 class="wow-outer"><span class="wow slideInDown">Notícias Recentes</span></h3>
         <div class="row row-30">
+
+          <!-- NOTICIA   -->
           <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
-            <!-- Post Tiny-->
             <article class="post-tiny wow fadeSlideInDown"><a class="post-tiny-media" href="noticia1.html"><img
                   src="images/noticia1.jpg" alt="" width="270" height="184" /></a>
               <h5 class="post-tiny-title"><a href="noticia1.html">Novo estudo revela: investir em imóveis é uma opção
@@ -360,8 +406,10 @@
               <time class="post-tiny-time" datetime="2017">Recente</time>
             </article>
           </div>
+          <!-- NOTICIA   -->
+
+          <!-- NOTICIA   -->
           <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
-            <!-- Post Tiny-->
             <article class="post-tiny wow fadeSlideInDown" data-wow-delay=".05s"><a class="post-tiny-media"
                 href="noticia2.html"><img src="images/noticia2.jpg" alt="" width="270" height="184" /></a>
               <h5 class="post-tiny-title"><a href="noticia2.html">Corretores de imóveis inovam com tour virtual para
@@ -370,8 +418,10 @@
               <time class="post-tiny-time" datetime="2017">Recente</time>
             </article>
           </div>
+          <!-- NOTICIA   -->
+
+          <!-- NOTICIA   -->
           <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
-            <!-- Post Tiny-->
             <article class="post-tiny wow fadeSlideInDown" data-wow-delay=".1s"><a class="post-tiny-media"
                 href="noticia3.html"><img src="images/noticia3.jpg" alt="" width="270" height="184" /></a>
               <h5 class="post-tiny-title"><a href="noticia3.html">Comprar imóveis na praia: a tendência do momento</a>
@@ -379,8 +429,10 @@
               <time class="post-tiny-time" datetime="2017">Recente</time>
             </article>
           </div>
+          <!-- NOTICIA   -->
+
+          <!-- NOTICIA   -->
           <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
-            <!-- Post Tiny-->
             <article class="post-tiny wow fadeSlideInDown" data-wow-delay=".15s"><a class="post-tiny-media"
                 href="noticia4.html"><img src="images/noticia4.jpg" alt="" width="270" height="184" /></a>
               <h5 class="post-tiny-title"><a href="noticia4.html">Corretor de imóveis: a peça-chave na compra do seu
@@ -388,21 +440,29 @@
               <time class="post-tiny-time" datetime="2017">Recente</time>
             </article>
           </div>
+          <!-- NOTICIA   -->
+
         </div>
 
       </div>
     </section>
 
 
-    <!-- A Few Words About Us-->
-    <section class="section bg-gray-200" style="background-image: url(images/bg-2.png);">
+    <!-- BEM AQUI ABAIXO FICA O PRIMEIRO PLANO DE FUNDO DO SEU SITE, VOCÊ PODE TROCAR ELA RENOMEANDO O ARQUIVO IMAGES/BG-2.PNG PARA 
+      IMAGES/PLANO_DE_FUNDO2.PNG SE ASSIM VOCÊ TIVER SALVO O NOME DA IMAGEM NOVA, ONDE IMAGES É A PASTA ONDE DEVERÁ SER SALVA A IMAGEM E DEPOIS DA "/" 
+      É O NOME QUE VOCE SALVOU A IMAGEM, JUNTAMENTE COM A EXTESÃO DELA, SE É .PNG OU .JPG TEM QUE IR MUDANDO TAMBÉM-->
+    <section id="contato" class="section bg-gray-200" style="background-image: url(images/bg-2.png);">
+      <!-- BEM AQUI ACIMA FICA O PRIMEIRO PLANO DE FUNDO DO SEU SITE, VOCÊ PODE TROCAR ELA RENOMEANDO O ARQUIVO IMAGES/BG-2.PNG PARA 
+        IMAGES/PLANO_DE_FUNDO2.PNG SE ASSIM VOCÊ TIVER SALVO O NOME DA IMAGEM NOVA, ONDE IMAGES É A PASTA ONDE DEVERÁ SER SALVA A IMAGEM E DEPOIS DA "/" 
+        É O NOME QUE VOCE SALVOU A IMAGEM, JUNTAMENTE COM A EXTESÃO DELA, SE É .PNG OU .JPG TEM QUE IR MUDANDO TAMBÉM-->
+
+
       <div class="range justify-content-xl-between">
         <div class="cell-lg-6 cell-xl-5 align-self-center container">
           <div class="row">
             <div class="col-md-10 cell-inner">
               <div class="section-lg">
                 <h3 class="wow-outer"><span class="wow slideInDown" style="color: white;">Fale comigo</span></h3>
-                <!-- RD Mailform-->
                 <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact"
                   method="post" action="bat/rd-mailform.php">
                   <div class="row row-10">
@@ -463,7 +523,6 @@
         </div>
       </div>
     </section>
-    <!-- Partners-->
     <section class="section section-sm">
       <div class="container">
         <div class="layout-bordered">
@@ -495,19 +554,16 @@
       <div class="container">
         <div class="footer-minimal-inner"><a class="brand" href="index.html"><img src="images/logo_pedro.png" alt=""
               width="199" height="22" /></a>
-          <!-- Rights-->
           <p class="rights" style="color: white;"><span>&copy;&nbsp;</span><span class="copyright-year"
               style="color: white;"></span>. Todos os Direitos Reservados. Desenvolvido
             por <a href="https://www.estevaoferreiradev.com">Estevão Ferreira</a></p>
         </div>
       </div>
     </footer>
-    <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-    <!-- Inclua o jQuery -->
 
 </body>
 
